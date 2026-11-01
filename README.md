@@ -11,13 +11,13 @@ Popular flashcard-based study apps like Quizlet and Knowt require an internet co
 A paragraph or a few bullets explaining what the software does at a
 high level. If you have a diagram, embed it here:
 
-![System diagram](CS193 System Diagram.drawio.png)
+![System diagram](CS193_System_Diagram.drawio.png)
 
 ## Tech Stack
 
 - **Language:** Java
-- **Libraries:** any external dependencies
-- **External tools:** cron, curl, APIs, etc.
+- **Libraries:** ObjectInput/OutputStream, FileInput/OutputStream, ArrayList, Scanner
+- **External tools:** No external tools
 
 ## Setup
 
@@ -40,11 +40,11 @@ How to actually run the thing, with examples.
 
 ## Roadmap
 
-Features you haven't built yet but plan to (pull these from your
-"Schedule" quadrant in the Eisenhower Matrix).
+- [ ] Construct flashcard objects with a “confidence” level
+- [ ] Learn mode, similar to Quizlet and Knowt, changes the “confidence” level. If the user gets the question wrong, the user can correct it to say they got it right.
+- [ ] Test mode, which randomizes the flashcards to make multiple choice, written, or true/false. User will choose which question to answer when the test is made, along with a “done” button to finish
+- [ ] “Chain” mode, original gamemode where you try to get as many questions correct as possible, sets a static high score.
 
-- [ ] Desktop notifications
-- [ ] Multi-directory support
 
 ## Author
 
