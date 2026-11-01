@@ -11,7 +11,7 @@ Popular flashcard-based study apps like Quizlet and Knowt require an internet co
 A paragraph or a few bullets explaining what the software does at a
 high level. If you have a diagram, embed it here:
 
-![System diagram](docs/diagram.png)
+![System diagram](CS193 System Diagram.drawio.png)
 
 ## Tech Stack
 
